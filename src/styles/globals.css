@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import "./styles.css";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --font-inter: "InterCustom", sans-serif;
+  --font-opensauce: "OpenSauceSans", sans-serif;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-neutral-6: #666666;
+
+  --color-blue-50: #e7eef2;
+  --color-blue-800: #072a41;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter);
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-opensauce);
+  font-weight: 700;
+}

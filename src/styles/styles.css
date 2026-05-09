@@ -1,0 +1,24 @@
+/* **********************
+   Fonts for Inter 
+ ********************** */
+
+@font-face {
+  font-family: "InterCustom";
+  src: url(fonts/inter/Inter_18pt-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "InterCustom";
+  src: url(fonts/inter/Inter_18pt-Medium.ttf);
+  font-weight: 500;
+}
+
+/* **********************
+   Fonts for Open Sauce
+ ********************** */
+@font-face {
+  font-family: "OpenSauceSans";
+  src: url(fonts/open-sauce/OpenSauceSans-Bold.ttf);
+  font-weight: 700;
+}
