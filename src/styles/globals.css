@@ -14,17 +14,30 @@
   --color-foreground: var(--foreground);
 
   --color-neutral-6: #666666;
+  --color-neutral-12: #121212;
+  --color-neutral-b2: #B2B2B2;
+  --color-neutral-da:  #DADDDC;
+  --color-neutral-3c:  #3C3C3C;
+
+  --color-gray-50: #E7EEF2;
+  --color-gray-100: #F3F7F9;
+  --color-gray-900: #6A6B6B;
+  --color-gray-902: #2A2B2B;
+
 
   --color-blue-50: #e7eef2;
+  --color-blue-75: #f6fbfc;
+  --color-blue-100: #eef3f8;
+  --color-blue-150: #F4F8FB;
+  --color-blue-200: #86aac0;
+  --color-blue-400: #367197;
+  --color-blue-500: #0E5582;
   --color-blue-800: #072a41;
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background: var(--background);
@@ -35,10 +48,6 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   font-family: var(--font-opensauce);
-  font-weight: 700;
 }
